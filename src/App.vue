@@ -24,7 +24,7 @@ export default {
 		.then( countries => this.countries=countries)
 
 		eventBus.$on('countryClicked', (country) => {
-			this.selectedCountry=country
+			this.selectedCountry=country;
 		})
 	},
 	components: {
