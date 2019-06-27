@@ -7,8 +7,9 @@
 
 <script>
 import CountriesList from './components/CountriesList.vue'
+import CountryDetails from './components/CountryDetails.vue'
 import {eventBus} from './main.js'
-import CountryDetails from './components/CountryDetails'
+
 
 export default {
 	name: 'app',
